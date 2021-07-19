@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Cleaners</title>
+    <style>
+        
+        @media screen and (max-width:1000px) {
+            .h3-section1-left, .h3-section1-right, .div-section1-left,
+            .div-section1-form, .div-section2-left, .div-section2-middle,
+            .div-section2-right, .div-section3-left, .div-section3-right{
+                width: 100%;
+        }
+        }
+
+        .input {
+            width: 90%;
+            margin: 5px;
+        }
+
+        .submit {
+            color: white;
+            background-color: greenyellow;
+            width: 94%;
+            margin: 5px;
+        }
+        .img-section3 {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            padding: 2px;
+            border-radius: 40px;
+        }
+
+        .h3-section1-left {
+            margin-left: 100px;
+            width: 20%;
+            float: left;
+        }
+
+        .h3-section1-right {
+            margin-left: 350px;
+            width: 20%;
+            float: left;
+        }
+
+        .div-section1-left {
+            width: 40%;
+            color: white;
+            margin: 30px 50px;
+            text-align: left;
+            float: left;
+        }
+
+        .div-section1-form {
+            width: 30%;
+            background-color: black;
+            padding: 5px;
+            text-align: center;
+            margin: 30px 50px;
+            opacity: 0.7;
+            float: left;
+        }
+
+        .div-section2-left {
+            width: 20%;
+            float: left;
+        }
+
+        .div-section2-middle {
+            width: 20%;
+            padding-left: 130px;
+            float: left;
+        }
+
+        .div-section2-right {
+            width: 20%;
+            margin-left: 100px;
+            float: left;
+        }
+
+        .img-section2-left {
+            width: 50px;
+            height: 50px;
+            background-color: darkgrey;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: 20px;
+        }
+
+        .img-section2-middle {
+            width: 50px;
+            height: 50px;
+            background-color: darkgrey;
+            padding: 10px;
+            border-radius: 40px;
+        }
+
+        .img-section2-right {
+            width: 50px;
+            height: 50px;
+            background-color: darkgrey;
+            padding: 10px;
+            border-radius: 40px;
+            margin-left: 15px;
+        }
+
+        .copyright {
+            background-color: dimgrey;
+            color: white;
+            padding-left: 150px;
+            margin-top: 0px;
+        }
+
+        .div-section3-main {
+            background-color: darkgrey;
+            margin: 0px 0px;
+        }
+
+        .div-section3-left {
+            width: 30%;
+            margin-left: 150px;
+            float: left;
+
+        }
+
+        .div-section3-right {
+            width: 30%;
+            margin-left: 100px;
+            float: left;
+
+        }
+    </style>
+
+</head>
+
+<body style="padding: 0px 300px;">
+
+    <!--SECTION 1-->
+
+    <div style="margin: 30px;">
+        <h3 class="h3-section1-left">Pro Cleaners</h3>
+        <h3 class="h3-section1-right">Phone: 1-800-22-3030</h3>
+    </div>
+    <div style="clear: left;"></div>
+
+    <div style="padding: 20px; background-image: url(cleaning.jpg);">
+
+        <div class="div-section1-left">
+            <h1>Vancouver's Best Home Cleaners</h1>
+            <p style="font-size: 15px;">Pro Cleaning is Vancouver's best cleaning service. 
+                For the quality maid service Vancouver relies on, book one of our experienced, 
+                background-checked professionals to have your home clean in no time</p>
+        </div>
+
+        <div class="div-section1-form">
+            <div style="opacity: 1;">
+                <h2 style="color: white;">Request Info & Booking</h2>
+                <h5 style="color: white;">Fill this form and we'll contact you as soon as we can.</h5>
+
+                <form action="" name="bookingForm" id="bookingForm" onsubmit="displayData()">
+    
+                    <input type="text" name="fullName" id="fullName" placeholder="Your Name" required class="input">
+
+                    <input type="email" name="email" id="email" placeholder="Your Email" required class="input">
+
+                    <input type="tel" name="telephone" id="telephone" placeholder="Your Phone" required class="input">
+
+                    <input type="submit" value="Request Info & Booking" class="submit">
+                </form>
+
+            </div>
+         </div>
+         <div style="clear: left;"></div>
+
+    </div>
+
+    <!--SECTION 2-->
+
+    <div style="padding: 2% 15%;">
+
+        <div class="div-section2-left">
+            <img src="contact.png" alt="contact" class="img-section2-left">
+            <h4>Trusted Professionals</h4>
+            <p>Our professionals are experienced, friendly, and background-checked.</p>
+        </div>
+
+        <div class="div-section2-middle">
+            <img src="calender.jpg" alt="calender" class="img-section2-middle">
+            <h4>Available Everyday</h4>
+            <p>We're available to serve you 7 days per week. We'll work around your schedule.</p>
+        </div>
+
+        <div class="div-section2-right">
+            <img src="dollar.png" alt="dollar sign" class="img-section2-right">
+            <h4>100% Money-Back Guarantee</h4>
+            <p>If you're not satisfied, we'll refund all of your money. It's as simple as that.</p>
+        </div>
+        <div style="clear: left;"></div>
+
+    </div>
+
+    <!--SECTION 3-->
+
+    <div class="div-section3-main">
+
+        <h3 style="text-align: center;">What our Clients Say</h3>
+
+        <div class="div-section3-left">
+
+            <div style="margin-left: 100px;">
+                <img src="person1.jpeg" alt="a woman" class="img-section3">
+                <p>Paulo Parra</p>
+            </div>
+
+            <hr>
+            <p>The team was fast and friendly - honestly my house hasn't been this clean in years!</p>
+            <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+
+        </div>
+
+        <div class="div-section3-right">
+
+            <div style="margin-left: 100px;">
+                <img src="person2.jpg" alt="a man" class="img-section3">
+                <p>Ana Carolina</p>
+            </div>
+
+            <hr style="color: black;">
+            <p>It feels so great walking in to a fresh, clean apartment every day. These guys make my place spotless!</p>
+            <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+
+        </div>
+
+        <div style="clear: left;"></div>
+
+        <p class="copyright">&copy; Copyright. All Rights Reserved.</p>
+
+    </div>
+    <script>
+        function displayData() {
+            
+            fullname = document.getElementById('fullName').value
+            email = document.getElementById('email').value
+            tel = document.getElementById('telephone').value
+            
+            alert(fullname + "\n" + email + "\n" + tel)
+        }
+    </script>
+</body>
+</html>
